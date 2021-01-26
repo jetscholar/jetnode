@@ -1,0 +1,31 @@
+{
+  "name": "jetnode",
+  "version": "1.0.0",
+  "description": "node version of jetscholar hosted on jetscholar.net",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jetscholar/jetnode.git"
+  },
+  "author": "MJZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jetscholar/jetnode/issues"
+  },
+  "homepage": "https://github.com/jetscholar/jetnode#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "mongoose": "^5.11.13"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
