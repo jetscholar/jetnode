@@ -16,6 +16,7 @@ const passport =require('passport')
 
 const bodyParser = require('body-parser')
 const expressLayouts = require('express-ejs-layouts')
+const favicon = require('express-favicon')
 const port = 8888
 // app.use(morgan('tiny'))
 
@@ -28,6 +29,7 @@ app.set('layout', 'layouts/layout')
 app.use(expressLayouts)
 app.use(express.static('public'))
 app.use(bodyParser.urlencoded({ limit: '10mb', extended: false }))
+app.use(favicon('public/assets/favicon_io/favicon.ico'))
 
 
 const mongoose = require('mongoose')
@@ -37,7 +39,7 @@ mongoose.connect(process.env.SECURE_URL, {
 })
 const db = mongoose.connection
 db.on('error', (error) => console.error(error))
-db.once('open', () => console.log('Connected to the Qudos DB'))
+db.once('open', () => console.log('Connected to the jetNode DB'))
 
 
 // routes

@@ -1,4 +1,4 @@
-# ![jetScholar Logo](./public/assets/QLogo-trans.png)
+# ![jetScholar Logo](./public/assets/jetScholar_logo.png)
 
 ## Work Log
 
