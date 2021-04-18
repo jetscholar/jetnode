@@ -1,10 +1,14 @@
-* {
+@import 'shared/variables.css';
+@import 'shared/navbar.css';
+
+*, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 :root{
+    font-family: 'Roboto', sans-serif;
     --clr-background:  #4482cd;
     --clr-white: #fff;
     --clr-contrast: #4482cd;
@@ -14,14 +18,14 @@
 }
 
 body {
-    
-    font-family: 'Roboto', sans-serif;
     font-size: var(--font-size);
     color: var(--clr-white);
-    background-color: var(--clr-background);
-}
+    background-color: #4482cd;
+    /* background-color: var(--clr-background); */
+} 
 
-.navbar {
+/* .navbar {
     width: 100vw;
     background-color: var(--clr-contrast);
-}
+} */
+

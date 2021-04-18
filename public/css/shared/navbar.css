@@ -1,0 +1,76 @@
+:root {
+    --nav-title-font-size: 2rem;
+    --nav-title-font-weight: bold;
+    --nav-link-font-weight: 300;
+}
+
+.navbar {
+    width: 100vm;
+
+    background-color: var(--color-background-medium);
+    margin: 0;
+}
+
+.navItems {
+    height: 100px;
+}
+
+#logo {
+    width: 380px;
+    height: 90px;
+    margin-top: 3px;
+    margin-left: 5px;
+    padding:0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    height: 6em;
+}
+
+ul li {
+    padding-right: 2em;
+}
+
+li:first-child {
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+
+#nav-links {
+    display: inline;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    float: right;
+    margin: 5px;
+    padding: 8px;
+}
+#mastermind-link {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.1);
+    float: right;
+    margin-right: 20px;
+    border: 2px solid white;
+    padding: 8px;
+    border-radius: 2px;
+}
+#mastermind-link:visited {
+    text-decoration: none;
+    color: white;
+}
+#mastermind-link:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
