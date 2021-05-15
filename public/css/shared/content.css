@@ -1,0 +1,47 @@
+.page-title {
+    padding-top: 1em;
+    padding-bottom: .5em;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+.heroContent {
+    margin: 0;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 500px 500px;
+    grid-auto-rows: 500px;
+    grid-gap: 20px;
+}
+
+.item {
+    margin: .333em;
+    padding: .1em;
+    background-color: blanchedalmond;
+    border-radius: .1em;
+}
+
+.card {
+    box-sizing: border-box;  
+    user-select: none;
+    position: relative;
+    box-shadow: 8px 8px 20px rgba(0,0,0,.33);
+    background: #efefef;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+.title {
+    font-size: 1.25em;
+    color: var(--clr-font);
+    background-color: var(--clr-background);
+    text-align: center;
+    position: relative;
+    height: 15%;
+}
+
+.card-content {
+    background-color: cornflowerblue;
+    position: relative;
+    height: 475px;
+}

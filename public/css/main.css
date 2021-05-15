@@ -1,5 +1,8 @@
 @import 'shared/variables.css';
 @import 'shared/navbar.css';
+@import 'shared/menu.css';
+@import 'shared/content.css';
+@import 'shared/footer.css';
 
 *, *::before, *::after {
     box-sizing: border-box;
@@ -23,6 +26,17 @@ body {
     background-color: #4482cd;
     /* background-color: var(--clr-background); */
 } 
+
+.content-container {
+    margin-left: 15%;
+    height: 800px;
+    background-color: var(--clr-content);
+    /* background-image: url('../assets/heroEagleII.jpeg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+}
+
+
 
 /* .navbar {
     width: 100vw;

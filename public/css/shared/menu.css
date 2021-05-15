@@ -1,0 +1,83 @@
+:root {
+    --nav-title-font-size: 2rem;
+    --nav-title-font-weight: bold;
+    --nav-link-font-weight: 300;
+}
+
+.menu {
+    width: 15%;
+    height: 800px;
+    /* background: red; */
+    background: var(--clr-menu);
+    float: left;
+}
+
+.menuBtn {
+    display: flex;
+    height: 2em;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#btnMenu {
+    float: left;
+    text-decoration: none;
+    border: none;
+    border-radius: var(--border-radius);
+    color: var(--clr-font);
+    background-color: var(--clr-background);
+}
+
+.btnShow {
+    display: inline;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    float: right;
+    margin: 5px;
+    margin-right: 10px;
+}
+
+#btnShow {
+    float: left;
+}
+
+.btnShow:visited {
+    text-decoration: none;
+    color: white;
+}
+.btnShow:hover {
+    background-color: var(--clr-background);
+    color: var(--clr-footer);
+}
+
+.menuItemsUL {
+    flex-direction: column;
+    margin: 1em;
+    list-style: none;
+}
+
+.menuItemsUL li {
+    padding: 1em;
+}
+
+/* Top */
+/* #pushTop {
+	bottom: auto;
+	width: 100%;
+	height: 45px;
+	-webkit-transform: translate3d(0, -100%, 0);
+}
+#pushTop li {
+	float: left;
+	padding: 0 16px;
+	line-height: 45px;
+	border: 0;
+	border-right: 1px solid #225679;
+}
+#pushTop:target {
+	-webkit-transform: translate3d(0, 0, 0);
+}
+#pushTop:target ~ .container {
+	-webkit-transform: translate3d(0, 45px, 0);
+} */

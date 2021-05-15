@@ -1,6 +1,9 @@
 :root {
     --color-base-hue: 255;
     --clr-background:  #4482cd;
+    --clr-navbar: #578ED1;
+    --clr-menu: #2A2A2A;
+    --clr-content: #70B0E5;
     --clr-white: #fff;
     --clr-contrast: #4482cd;
     --color-background-dark: hsl(var(--color-base-hue), 100%, 8%);

@@ -5,25 +5,23 @@
 }
 
 .navbar {
-    width: 100vm;
-
-    background-color: var(--color-background-medium);
+    background-color: var(--clr-navbar);
     margin: 0;
 }
 
-.navItems {
-    height: 100px;
-}
+/* .navItems {
+    height: 70px;
+} */
 
 #logo {
-    width: 380px;
-    height: 90px;
+    width: 270px;
+    height: 65px;
     margin-top: 3px;
     margin-left: 5px;
     padding:0;
 }
 
-ul {
+.nav-bar {
     list-style: none;
     display: flex;
     justify-content: flex-end;
@@ -32,11 +30,11 @@ ul {
     height: 6em;
 }
 
-ul li {
+.nav-bar li {
     padding-right: 2em;
 }
 
-li:first-child {
+.nav-bar li:first-child {
     margin-right: auto;
 }
 
